@@ -11,21 +11,24 @@ const handleUserInput = function (key) {
   }
   //up
   if (key === '\u001b[A') {
-    connection.write("Move: up")
+    connection.write("Move: up");
   }
   //down
   if (key === '\u001b[B') {
-    connection.write("Move: down")
+    connection.write("Move: down");
   }
   //right
   if (key === '\u001b[C') {
-    connection.write("Move: right")
+    connection.write("Move: right");
   }
   //left
   if (key === '\u001b[D') {
-    connection.write("Move: left")
+    connection.write("Move: left");
   }
 
+  if (key === '\u0041') {
+    connection.write("Sup");
+  }
 
 };
 

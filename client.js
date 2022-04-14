@@ -18,7 +18,7 @@ const connect = function (data) {
     //setInterval(() => {
     //  conn.write('Move: up');
     //}, 50);
-  })
+  });
 
   return conn;
 };
